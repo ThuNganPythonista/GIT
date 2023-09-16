@@ -85,6 +85,17 @@ Here, you see two instructions : create repo on the top and push an existing rep
 - Now, you continue to code at your terminal, followed by 3 guidelines below. You just need to coppy and paste sequentially. For example, mine :
  
     `git remote add origin https://github.com/ThuNganPythonista/TEST.git`
+
+  and then .. :
+
+    `git push -u origin main`
+
+  The output looks like this :
+
+  ![install git](./images/git7.png)
+
+  Now, your complete project is available on your repo GitHub already !!
+
   
 
 
