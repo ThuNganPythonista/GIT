@@ -96,8 +96,23 @@ Here, you see two instructions : create repo on the top and push an existing rep
 
   Now, your complete project is available on your repo GitHub already !!
 
+  ### SOME COMMON GIT ERRORS
   
+  ###### Message 'src refspec master does not match any'
 
+  This error has two cases :
+   + (1) No commit on master branch
+   + (2) the name of local branch which is different from remote branch
+
+  Debug :
+
+  1. Check the status of master branch :
+ 
+     `git status`
+
+  2. If the output on terminal result like this :
+ 
+  
 
 
 
