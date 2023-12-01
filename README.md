@@ -115,6 +115,19 @@ Here, you see two instructions : create repo on the top and push an existing rep
      ![image]( https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-01%20at%202.55.20%20PM.png)
 
 
+ => Ya sure, your branch has no commit ! It means that you do not upload anything to your repo Github.
+
+ But why you already run `git add .` ?
+
+ The secret that Google and ChatGPT never tell you is hidden in `gitignore` file.
+
+ Some project automatically created `gitignore` file, having (*) that means ignore EVERYTHING. Just delete it and run commands as usual, It will work !!!
+
+ With MacOs, you must go to your finder and locate your project, run `command` + `shift` + `.` to show hidden git file.
+
+ 
+
+
 
 
 
