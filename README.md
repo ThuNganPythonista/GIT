@@ -112,7 +112,8 @@ Here, you see two instructions : create repo on the top and push an existing rep
 
   2. If the output on terminal result like this :
  
-     
+     ![image](https://github.com/ThuNganPythonista/ThuNganPythonista/blob/main/Untitled%20Diagram.drawio.png)
+
  
   
 
