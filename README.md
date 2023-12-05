@@ -136,6 +136,8 @@ Now, you need to install the libraries and dependencies listed in the requiremen
 
 `pip install -r requirements.txt`
 
+![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-05%20at%201.01.17%20PM.png)
+
 
 ### SOME COMMON GIT ERRORS
   
