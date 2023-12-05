@@ -108,6 +108,8 @@ I succesfully clone melyoj project to my local desktop ngans-MacBook-Pro
 
 **(2) Create a Virtual Environment:** 
 
+It allows you to comfortably install, uninstall, and set up different versions with Python packages without worrying about affecting existing projects.
+
 If you use MacOs, so you run :
 
 `python3 -m venv env`
@@ -119,6 +121,14 @@ With Windows :
 `py -m venv env`
 
 **(3)Activate the virtual environment:**
+
+![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/gitclone.png)
+
+After successful activation, at the beginning of the path, you will see the name of the virtual environment enclosed in parentheses (env).
+
+**(4) Deploy The Project:**
+
+Now, you move to that project by using the command `cd` :
 
 
 
