@@ -139,6 +139,11 @@ Now, you need to install the libraries and dependencies listed in the requiremen
 ![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-05%20at%201.01.17%20PM.png)
 
 
+Tadaaaaaa, This is my final result :
+
+![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/gitclone2.png)
+
+
 ### SOME COMMON GIT ERRORS
   
   ###### Message 'src refspec master does not match any'
