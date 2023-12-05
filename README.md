@@ -130,7 +130,11 @@ After successful activation, at the beginning of the path, you will see the name
 
 Now, you move to that project by using the command `cd` :
 
+![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/cdmely.png)
 
+Now, you need to install the libraries and dependencies listed in the requirements.txt file into your Python environment. Run :
+
+`pip install -r requirements.txt`
 
 
 ### SOME COMMON GIT ERRORS
