@@ -98,11 +98,29 @@ Here, you see two instructions : create repo on the top and push an existing rep
 
 ### SECTION 2: Clone and Run a Django Project from Github ###
 
-(1)Git clone : you create a coppy of the project on Github. You clone it into your local desktop, for example.
+**(1)Git clone** : you create a coppy of the project on Github. You clone it into your local desktop, for example.
 
-`git clone <URL of repo> `
+`git clone <URL of repo> ` 
 
-(2)
+![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-05%20at%2012.28.02%20PM.png)
+
+I succesfully clone melyoj project to my local desktop ngans-MacBook-Pro
+
+**(2) Create a Virtual Environment:** 
+
+If you use MacOs, so you run :
+
+`python3 -m venv env`
+
+Virtualenv is a tool that allows you create and manage independent virtual environments for each project.
+
+With Windows :
+
+`py -m venv env`
+
+**(3)Activate the virtual environment:**
+
+
 
 
 ### SOME COMMON GIT ERRORS
