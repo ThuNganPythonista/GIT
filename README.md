@@ -1,4 +1,4 @@
-# BASIC GIT COMMANDS AND SOME ERRORS GOOGLE OR CHATGPT NEVER DISCLOSE =)) #
+# GIT TUTORIAL #
 
 *Git is Distributed Version Control System. It allows us to store changed versions of the project and go back to any version that has been saved. This system can be used by many people to work together on the same source code. And each person will have their own version of the source code. These separate versions can then be merged into the main version of the project.*
 
