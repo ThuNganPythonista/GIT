@@ -4,7 +4,7 @@
 
 * It'll be easier when you already learnt Linux
 
-### INSTALL GIT ###
+### SECTION 1: INSTALL GIT AND RUN SOME BASIC COMMANDS TO PUSH YOUR PROJECT TO GITHUB ###
 
 Firstly, you need to install GIT in your computer ! 
 
@@ -96,7 +96,16 @@ Here, you see two instructions : create repo on the top and push an existing rep
 
   Now, your complete project is available on your repo GitHub already !!
 
-  ### SOME COMMON GIT ERRORS
+### SECTION 2: Clone and Run a Django Project from Github ###
+
+(1)Git clone : you create a coppy of the project on Github. You clone it into your local desktop, for example.
+
+`git clone <URL of repo> `
+
+(2)
+
+
+### SOME COMMON GIT ERRORS
   
   ###### Message 'src refspec master does not match any'
 
