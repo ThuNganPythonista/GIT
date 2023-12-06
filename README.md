@@ -136,11 +136,9 @@ Now, you need to install the libraries and dependencies listed in the requiremen
 
 `pip install -r requirements.txt`
 
-![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-05%20at%201.01.17%20PM.png)
-
 Tadaaaaaa, This is my final result :
 
-![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/gitclone03.png)
+![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-06%20at%2012.47.04%20PM.png)
 
 ### SOME COMMON GIT ERRORS
   
