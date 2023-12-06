@@ -110,17 +110,15 @@ I succesfully clone melyoj project to my local desktop ngans-MacBook-Pro
 
 It allows you to comfortably install, uninstall, and set up different versions with Python packages without worrying about affecting existing projects.
 
-If you use MacOs, so you run :
-
 `python3 -m venv env`
 
 Virtualenv is a tool that allows you create and manage independent virtual environments for each project.
 
-With Windows :
-
-`py -m venv env`
-
 **(3)Activate the virtual environment:**
+
+You alr created virtual environment, now run it :
+
+`source env/bin/activate`
 
 ![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/gitclone.png)
 
@@ -139,6 +137,9 @@ Now, you need to install the libraries and dependencies listed in the requiremen
 Tadaaaaaa, This is my final result :
 
 ![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-06%20at%2012.47.04%20PM.png)
+
+### SECTION 2 :  ###
+
 
 ### SOME COMMON GIT ERRORS
   
