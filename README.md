@@ -138,7 +138,11 @@ Tadaaaaaa, This is my final result :
 
 ![git clone](https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-06%20at%2012.47.04%20PM.png)
 
-### SECTION 2 :  ###
+### SECTION 3 : GIT BRANCH, WHAT IZIT ? ###
+
+A bit same as the role of git-clone in section 2 is somewhat similar to what project's members code independently, not affecting the main branch of project. These branches can consolidate by the command `merge`.
+
+
 
 
 ### SOME COMMON GIT ERRORS
