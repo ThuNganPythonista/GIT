@@ -188,6 +188,9 @@ First, identify the location of the development branch that the second branch co
 `git merge [branch]`
 As you can see, you can easily merge Git branches. You just need to know the basic commands and keep the entire management system tidy
 
+### SECTION 4 : THE DIFFERENCES BETWEEN GIT AND GITHUB
+
+![image]()
 
 
 ### SOME COMMON GIT ERRORS
