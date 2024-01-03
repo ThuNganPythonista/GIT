@@ -144,22 +144,30 @@ A bit same as the role of git-clone in section 2 is somewhat similar to what pro
 
 Using Git Branch is simple, but the more branches you have, the harder it becomes to manage them.
 
-In any Git project, you can view all branches by entering the following command in the command line:
+**In any Git project, you can view all branches by entering the following command in the command line:**
 
 `git branch`
 
-If there are no new branches, it will not display any results in the terminal. Create a branch as follows:
+
+
+**If there are no new branches, it will not display any results in the terminal. Create a branch as follows:**
 
 `git branch [new_branch]`
-Then, we need to switch to the development branch. To do so, run the following command:
+
+
+**Then, we need to switch to the development branch. To do so, run the following command:**
 
 `git checkout [new_branch]`
-The result will notify us that we have switched to the new branch. We call it 'test':
+
+
+**The result will notify us that we have switched to the new branch. We call it 'test':**
 
 `Switched to branch 'test'`
-Now, being in the development branch, we can create custom code without affecting the main branch. Therefore, the software code remains unaffected.
 
-If we run the command to list branches, you will see the new branch created, and we are currently in it:
+
+**Now, being in the development branch, we can create custom code without affecting the main branch. Therefore, the software code remains unaffected.**
+
+**If we run the command to list branches, you will see the new branch created, and we are currently in it:**
 
 `git branch`
 One thing to note is that if you want to create a new development branch, you first need to commit to the main branch for Git to understand what the master branch is. If not done, you will encounter an error. So, first commit, and then create development branches.
