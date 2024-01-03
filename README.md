@@ -190,7 +190,7 @@ As you can see, you can easily merge Git branches. You just need to know the bas
 
 ### SECTION 4 : THE DIFFERENCES BETWEEN GIT AND GITHUB
 
-![image]()
+![image](https://github.com/ThuNganPythonista/GIT/blob/main/413191219_1398375287734834_4303922869410316290_n.jpg)
 
 
 ### SOME COMMON GIT ERRORS
