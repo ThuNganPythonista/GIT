@@ -142,6 +142,43 @@ Tadaaaaaa, This is my final result :
 
 A bit same as the role of git-clone in section 2 is somewhat similar to what project's members code independently, not affecting the main branch of project. These branches can consolidate by the command `merge`.
 
+Using Git Branch is simple, but the more branches you have, the harder it becomes to manage them.
+
+In any Git project, you can view all branches by entering the following command in the command line:
+
+`git branch`
+
+If there are no new branches, it will not display any results in the terminal. Create a branch as follows:
+
+`git branch [new_branch]`
+Then, we need to switch to the development branch. To do so, run the following command:
+
+`git checkout [new_branch]`
+The result will notify us that we have switched to the new branch. We call it 'test':
+
+`Switched to branch 'test'`
+Now, being in the development branch, we can create custom code without affecting the main branch. Therefore, the software code remains unaffected.
+
+If we run the command to list branches, you will see the new branch created, and we are currently in it:
+
+`git branch`
+One thing to note is that if you want to create a new development branch, you first need to commit to the main branch for Git to understand what the master branch is. If not done, you will encounter an error. So, first commit, and then create development branches.
+
+If we want to remove a branch from Git, we can do so with the following command:
+
+`git branch -d [branch_name]`
+However, to do this, we should not be in the branch we want to delete. So, we will switch to the master branch and from there, delete the branch we just created:
+
+```
+git checkout master
+git branch -d test
+```
+Finally, there will be times when you make many changes for a development branch. And it becomes stable; you will want to link it to another development branch. If so, you will use the merge command.
+
+First, identify the location of the development branch that the second branch connects to. For example, we will attach the test branch to the master branch. Then, we need to go into the master branch and merge into the command:
+
+`git merge [branch]`
+As you can see, you can easily merge Git branches. You just need to know the basic commands and keep the entire management system tidy
 
 
 
