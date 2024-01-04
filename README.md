@@ -188,10 +188,105 @@ First, identify the location of the development branch that the second branch co
 `git merge [branch]`
 As you can see, you can easily merge Git branches. You just need to know the basic commands and keep the entire management system tidy
 
-### SECTION 4 : THE DIFFERENCES BETWEEN GIT AND GITHUB
+### SECTION 4 : 11 GIT MUST-KNOW COMMANDS 
 
-![image](https://github.com/ThuNganPythonista/GIT/blob/main/413191219_1398375287734834_4303922869410316290_n.jpg)
+**GIT version** :  `git --v` check git version in your computer
 
+**GIT Config** :  `git config` is used to set your username and email in the main configuration file.
+
+```python
+git config --g user.name "phamngocthungan"
+git config --g user.email "phamngocthungan@gmail.com"
+git config --list
+```
+
+**GIT help** : If you need support, use the following commands:
+
+```python
+git help -a or $ git help --all - Guides on what you can do, all available commands.
+git config --help or $ git help config - Takes you to Git's official documentation page.
+git command --help - See all available options for a specific command.
+```
+
+**GIT STATUS** : This command checks the status of the repository.
+
+```python
+git status
+git status --short
+```
+
+**Example:**
+?? - Your file is untracked
+A - File has been added to the staging area
+M - File has been modified
+D - File has been deleted
+
+
+**GIT ADD:**
+
+`git add .`
+
+or
+
+`git add --all (git add -A)`
+
+or
+
+`git add index.html (specify the filename to add)`
+Add changes (new or modified) to be committed.
+
+**GIT DIFF**
+
+`git diff` : Compare the differences since your last commit.
+
+**GIT LOG**
+
+`git log` : View the commit history.
+
+**GIT CHECKOUT**
+
+`git checkout -b branch_name`:
+This command creates and immediately switches to a new branch.
+
+
+`git checkout branch_name` :
+This command helps navigate between branches.
+
+
+**GIT FETCH**
+
+`git fetch origin` :
+Git fetch helps you update information from the remote repository into the local repository without changing existing data.
+
+
+**GIT MERGE**
+
+`git merge <branch-name>` :
+Git merge is a tool used to combine changes from one branch into another.
+
+
+**GIT PULL**
+
+```python
+git pull origin main (pull all changes from main to local)
+git pull (pull all changes from branch_name to local)
+git pull origin (pull all changes from remote repository to the branch you're working on)
+git pull --rebase (avoid conflicts)
+```
+
+**GIT CLONE**
+
+`git clone <url>` :
+Git clone is used to copy a repository.
+
+
+**GIT REBASE**
+
+This command moves to the branch to be merged.
+`git checkout branch_name1`
+
+This command performs the merge, and code from branch_name2 is merged into branch_name1.
+`git rebase branch_name2`
 
 ### SOME COMMON GIT ERRORS
   
