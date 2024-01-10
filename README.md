@@ -302,7 +302,7 @@ This command performs the merge, and code from branch_name2 is merged into branc
  
      `git status`
 
-  2. If the output on terminal result like this :
+  2. If the output on terminal result like this ( **CASE 1:**) :
  
      ![image]( https://github.com/ThuNganPythonista/GIT/blob/main/images/Screenshot%202023-12-01%20at%202.55.20%20PM.png)
 
@@ -463,6 +463,16 @@ GitHub.sublime-settings
 
 
 ```
+
+ **CASE 2:  No commit on master branch**
+
+ It means that any new repository is created with the default branch main, not master
+
+ You `git pull` it before pushing
+
+
+ `git pull --rebase origin main`
+
 
  
 
